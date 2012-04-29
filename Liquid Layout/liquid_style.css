@@ -1,0 +1,61 @@
+/* CSS Document */
+
+h2, p{
+	margin-left: 7px;
+	margin-right: 7px;	
+}
+
+#header{
+	margin-bottom: 0px;	
+	display: inline;
+	background-color: #bbb;
+}
+#col1{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	width: 67%;
+	margin-top: 3%;
+	margin-left: 3%;
+	display: inline;	
+	background-color: #ddd;
+}
+#col2{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	width: 27%;
+	margin-top: 3%;
+	margin-left: 3%;
+	display: inline;	
+	background-color: #ddd;
+}
+#col3{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	width: 97%;
+	margin-top: 3%;
+	margin-left: 3%;	
+	display: inline;
+	background-color: #bbb;
+}
+
+#col4{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	width: 30%;
+	margin-top: 3%;
+	margin-left: 3%;	
+	display: inline;
+	background-color: #ddd;
+}
+#footer{
+	float: right;
+	margin-top: 3%;
+	width: 100%;
+	display: inline;
+	background-color: #bbb;
+	clear: both;	
+}
