@@ -1,0 +1,16 @@
+To solve this problem I needed to learn three facts which I found from research. 
+	1) The standard diameter of a ping pong ball (40mm)
+	2) The space efficiency of packing spheres next to each other (75%)
+		NOTE: This means that no matter how the ping pong balls are 				placed there will always be empty space between them. For a 		total volume V that the balls are placed in, there will be at 		minimum a volume of empty space equal to 25% of V
+	3) The approximate interior volume of a bus (71 m^3)
+
+The rest is simple calculations
+	1)The formula for the volume of a sphere is 4/3 * pi * r^3
+	2)r = 0.02m
+	3)V of 1 ping pong ball = 3.35 * 10^(-5)
+	4)Divide V-Bus by V-Ball = 2118750 balls (assuming all volume is taken 		up by ping pong balls
+	5)Multipling this amount by 75% gets us 1589062
+
+	Final answer: Approximately 1589062 ping pong balls 
+
+	NOTE: I did a little extra research and this roughly works out to be 	over $150,000 worth of ping pong balls.

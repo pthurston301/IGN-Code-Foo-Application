@@ -1,0 +1,29 @@
+Paul Thurston
+4/28/12
+
+
+Begin the Connect 4 game
+
+Create a 7x7 char array to be ourgame board.
+
+We will initialize each element to *. As the game progesses the elements will
+be changed to x and O for the human player and the computer player respectively.
+
+//Each iteration of this forever loop will contain to steps in the game. The human player move followed by the computer player move. After each move there will be a check to see if one of the players has won which will call break;
+
+while(1){
+	Ask the player to choose a column to place his piece. 
+	If that column happens to be full then ask for a different input.
+	
+	Check if that move creates a win situation. Break if true
+
+	Create a new 2d array that is a copy of the current game board
+	We will use this array for testing different moves. After a move is chosen it will be applied in the master array
+	
+	Using three for loops I will loop through the seven possible moves the computer can make, for each of these moves I will go through each of the 7 possible moves the human player can make, and for each of those moves I will go through the 7 different counter moves the computer can make. This results in the calculation of 343 different outcomes. 
+
+	Each of these outcomes will be evaluated as to how good an outcome they create for the computer. After all calculations are done the computer will choose the move that creates the best possible situation. 
+	
+	If that moves results in a win then end the game. 
+
+}
